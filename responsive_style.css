@@ -1,0 +1,338 @@
+@media only screen and (min-width:320px) and (max-width: 480px) {
+    #loader h3 {
+        font-size: 1rem;
+    }
+    #page1 #page1-content nav {
+        padding: 7.7vw 2.8vw;
+    }
+    #page1 #page1-content nav a h2 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #page1 #page1-content nav a h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #page1-elem {
+        height: 20%;
+    }
+    #upper-menu h2 {
+        font-size: 1rem;
+    }
+    #upper-menu h2 a {
+        font-size: .8rem;
+        text-decoration: none;
+    }
+    #upper-menu #btn h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    #upper-menu {
+        height: 100vh;
+    }
+    #cursor {
+       display: none;
+    }
+
+    #page2-elem {
+        height: 10vh;
+    }
+    #page2-elem h2 {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .para {
+        height: 15%;
+        width: 100%;
+    }
+    #page2{
+        width: 100%;
+        height: 40vh;
+    }
+    #page2-para h1 {
+        font-size: 1rem;
+    }
+    #page3 {
+        height: 30vh;
+    
+    }
+    #page3-top h4 {
+        font-size: .8rem;
+    }
+    #page3-top h2 {
+        font-weight: 400;
+        font-size: 1rem;
+        width: fit-content;
+        margin-bottom: 1vw;
+        padding-bottom: 1vw;
+        color: #000000;
+        display: inline-block;
+        position: relative;
+    }
+    #page4top {
+        height: 0vh;
+    }
+    #page4top h2 {
+        font-size: .8rem;
+    }
+    i {
+        font-size: .8rem;
+    }
+    #page4bottom {
+       flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        height: 100%;
+        margin: 1rem 0;
+    }
+    #page5 {
+        height: 45vh;
+    }
+    #page5top {
+        height: 10vh;
+    }
+    .headings {
+        width: 100%;
+        height: 100%;
+    }
+    .headings h2 {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .paragraphs h1 {
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 5vw;
+        text-align: left;
+        color: #111111;
+    }
+    .paragraphs {
+        width: 100%;
+        height: 16%;
+    }
+
+    #page6 {
+        height: 50vh;
+    }
+
+    #page7 {
+        width: 100%;
+        height: 50vh;
+        background-color: #FAF8F3;
+        font-family: NB;
+        padding: 0 3vw;
+    }
+    .page7headings h2 {
+        font-size: .8rem;
+    }
+    #page7bottom .boundry h1 {
+        font-size: 1rem;
+    }
+    #page8 {
+        height: 40vh;
+    }
+    #page8top a h2 {
+        font-size: .8rem;
+    }
+    #page9 {
+        height: 30vh;
+    }
+    .boundrywall {
+        width: 50%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    #page9 h2 {
+        font-size: 1rem;
+    }
+    #page9 a h1 {
+        font-size: 1rem;
+    }
+    #page10 {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #page10top {
+        width: 100%;
+        height: 50%;    
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .topleft {
+        width: 100%;
+        height: 0%;
+        margin-top: 1vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .topleft h1 {
+        font-size: 1rem;
+    }
+    .topleft button {
+        padding: 1.8vw 2.3vw;
+        font-size: .8rem;
+    }
+    .topright {
+        width: 100%;
+        height: 50%;
+    }
+    #page10bottom {
+        height: 30vh;
+        position: relative;
+    }
+    #page10bottom_heading{
+        width: 100%;
+        height: 100%;
+ 
+    }
+    #page10bottom_heading h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        letter-spacing: 3vw;
+        width: 100%;
+    }
+    #cursor2 {
+       display: none;
+    }
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #loader h3 {
+        font-size: 1rem;
+    }
+    i{
+        font-size: 1rem;
+    }
+    #cursor {
+        display: none;
+     }
+     #cursor2 {
+        display: none;
+     }
+    #page1 #page1-content nav a h2 {
+        font-size: 1rem;
+    }
+    #page1 #page1-content nav a h3 {
+        font-size: 1rem;
+    }
+    #upper-menu {
+        height: 100vh;
+    }
+    #upper-menu #btn h3 {
+        font-size: 1rem;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    #upper-menu #btn {
+       right: 50%;
+    }
+
+    #page1-elem {
+        height: 30%;
+    }
+    #page2 {
+        height: 50vh;
+    }
+    #page2-elem {
+        height: 15vh;
+    }
+    #page2-elem h2 {
+        font-size: 1rem;
+    }
+    .para {
+        height: 15%;
+    }
+    #page3 {
+        height: 20vh;
+    }
+
+    #page4top h2 {
+        font-size: 1rem;
+    }
+    #page4top {
+        height: 10vh;
+    }
+    #page4bottom {
+        flex-direction: column;
+        margin-top: 1vw;
+    }
+    .box {
+        width: 100%;
+        height: 100vh;
+        margin: 1vw 0;
+    }
+    #page5 {
+        height: 30vh;
+    }
+    #page5top {
+        height: 10vh;
+    }
+    .headings h2 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    #page7 {
+        height: 60vh;
+    }
+    .page7headings h2 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    #page8 {
+        height: 50vh;
+    }
+    #page8top a h2 {
+        font-size: 1rem;
+    }
+    #page8bottom h2 {
+        font-size: 1rem;
+    }
+    #page8bottom h2 span {
+        font-size: 1rem;
+    }
+    #page9 {
+        height: 40vh;
+    }
+    #page9 h2 {
+        font-size: 2rem;
+    }
+    #page9 a h1 {
+        font-size: 1rem;
+    }
+    #page10top {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .topleft h1 {
+        font-size: 1rem;
+        
+    }
+    .topleft button {
+        font-size: 1rem;
+    }
+    .topright {
+        width: 70%;
+    }
+    #page10centre #page10centreright {
+        width: 50%;
+    }
+    #page10bottom_heading h1 {
+        font-size: 18vw;
+        letter-spacing: .01rem;
+    }
+}
+
